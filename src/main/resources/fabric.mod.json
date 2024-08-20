@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "better-stone-recipe",
+	"version": "${version}",
+	"name": "Better Stone Recipe",
+	"description": "Make more stones available for stone tools, such as granite, diorite, andesite, etc.!",
+	"authors": [
+		"Persson Brown"
+	],
+	"contact": {
+		"sources": "https://github.com/PerssonBrown/Better-Stone-Recipe"
+	},
+	"license": "MIT",
+	"icon": "assets/better-stone-recipe/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"org.pbrown.bsr.BetterStoneRecipe"
+		],
+		"fabric-datagen": [
+			"org.pbrown.bsr.BetterStoneRecipeDataGenerator"
+		]
+	},
+	"mixins": [
+		"better-stone-recipe.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

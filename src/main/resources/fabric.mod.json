@@ -12,7 +12,7 @@
 	},
 	"license": "MIT",
 	"icon": "assets/better-stone-recipe/icon.png",
-	"environment": "client",
+	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"org.pbrown.bsr.BetterStoneRecipe"
